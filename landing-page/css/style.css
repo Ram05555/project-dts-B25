@@ -1,28 +1,96 @@
 /* Tyle the Style CSS code here */
+/* import fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  color: #3c3c3c;
+}
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* Section Body 1 */
+.section-1 {
+  width: 100%;
+  height: 530px;
+  background-color: #ffffff;
+  box-sizing: border-box;
+}
 
 /* Section Body 2 */
-/* Created By Jefri Sitorus */
+/* Created By Jefri Sitorus */  
+.section-2{
+  max-width: 100%;
+  height: 530px;
+  background-color: #f8f8f8;
+  box-sizing: border-box;
+  margin-bottom: 90px;
+}
+
+.section-2 .content-left {
+  float: left;
+  position: relative;
+  text-align: center;
+  padding: 80px 150px 0;
+}
+
+.section-2 .content-left .title-left {
+  color: #3c3c3c;
+  font-size: 44px;
+  font-weight: 500;
+  letter-spacing: 3px;
+  line-height: normal;
+}
+
+.section-2 .content-left p {
+  font-size: 18px;
+}
+
+.section-2 .content-left a {
+  text-decoration: none;
+}
+
+.section-2 .content-left a.btn-more {
+  color: #3c3c3c;
+  letter-spacing: 1px;
+  font-size: 16px;
+  font-weight: 500;
+  display: inline-block;
+  border: 1px solid #d5d3de;
+  padding: 10px 20px;
+  border-radius: 25px;
+  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.05);
+  transition: 0.5s;
+  margin-top: 20px;
+}
+
+.section-2 .content-left a.btn-more:hover {
+  background-color: #d5d3de;
+  box-shadow: none;
+}
+
+.section-2 .content-right {
+  float: right;
+  position: relative;
+  text-align: center;
+  padding: 60px 150px 0;
+}
+
+.section-2 .content-right img {
+  width: 400px;
+  height: 400px;
+  cursor: pointer;
+}
+
+/* footer */
+.footer {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: relative;
+  background-color: #0D2543;
+  padding: 30px 90px;
+}
